@@ -25,6 +25,12 @@ description: Take pictures with the device camera.
 |:-:|:-:|
 |[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-camera?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-camera)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-camera.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-camera)|
 
+# Cyclos patch
+We patched this plugin to add support for Android 13 (API level 33).
+The last release at the moment of the patch was 6.0.0 (they were in 7.0.0 milestone, not yet released), then we created a new 
+branch from 6.0.0 and applied this PR: https://github.com/apache/cordova-plugin-camera/pull/844
+
+This plugin is used only for Android, for iOS we perform an upload and it already give the chance to take a picture (biult-in behaviour).
 # cordova-plugin-camera
 
 This plugin defines a global `navigator.camera` object, which provides an API for taking pictures and for choosing images from
