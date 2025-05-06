@@ -21,8 +21,9 @@ description: Take pictures with the device camera.
 #         under the License.
 -->
 
-# Please switch to the branch [6.0.0_cyclos](https://github.com/cyclosproject/cordova-plugin-camera/tree/6.0.0_cyclos) to see the README file
-# cordova-plugin-camera
+# We used this patched version till mobile 2.14.6 (with Cordova 11.1.0, Android 11.0.0). In v2.15 we upgraded Cordova to 12.0.0 (Android 14.0.1) and start using the official version.
+
+## Please switch to the branch [6.0.0_cyclos](https://github.com/cyclosproject/cordova-plugin-camera/tree/6.0.0_cyclos) to see the README file cordova-plugin-camera
 
 [![Android Testsuite](https://github.com/apache/cordova-plugin-camera/actions/workflows/android.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/android.yml) [![Chrome Testsuite](https://github.com/apache/cordova-plugin-camera/actions/workflows/chrome.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/chrome.yml) [![iOS Testsuite](https://github.com/apache/cordova-plugin-camera/actions/workflows/ios.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/ios.yml) [![Lint Test](https://github.com/apache/cordova-plugin-camera/actions/workflows/lint.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/lint.yml)
 
